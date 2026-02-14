@@ -6,6 +6,13 @@ test("Redbus and Flipkart",async({page})=>{
     await page.waitForTimeout(5000)
     console.log("The Page title is " +await page.title())
     console.log(" The Page URL is " +page.url())
+
+    await page.goto("https://www.flipkart.com/")
+    await page.waitForTimeout(5000)
+    console.log("The Page title is " +await page.title())
+    console.log(" The Page URL is " +page.url())
+
+
 })
 
 //different browser
@@ -24,4 +31,5 @@ test("Redbus and Flipkart",async({page})=>{
    // await page1.goto("https://www.flipkart.com/")
    // await page1.waitForTimeout(5000)
    // console.log("The Page title is " +await page1.title())
+
    // console.log(" The Page URL is " +page1.url())
