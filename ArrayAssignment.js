@@ -8,6 +8,6 @@
     {
         count++
             }
-            
-  }
+     }
+
   console.log("Occurance of k is:" +count)
